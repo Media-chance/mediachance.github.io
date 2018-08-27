@@ -10,6 +10,9 @@
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
+    .service__title {
+    font-size: 26px;
+    }
     .offer__bg {
         font-size: 50px;
     }
@@ -48,9 +51,9 @@
     }
     .service {
     flex-direction: column;
+    margin-top: 10px;
     }
-        margin-bottom: 40px;
-    }
+        
     .service__index {
     position: relative;
     right: 40%;
@@ -60,13 +63,32 @@
     left: 10px;
     top: -30px;
 }
+.service__title {
+    font-size: 26px;
+    }
 }
 
 /* 481 - 768 px */
 @media screen and (max-width: 768px) {
+    .offer {
+    position: relative;
+    left: auto;
+    top: auto;
+    padding-top: 50px;
+    }
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background: #0406bd url(../img/first_bg1.jpg) no-repeat center bottom / cover;
+}
+    .service {
+    flex-direction: column;
+    margin-top: 10px;
+    }
+
     .offer__bg {
         font-size: 40px;
-        position: relative;
     }
     .header {
         height: auto;
@@ -88,7 +110,6 @@
     
     .nav__showmenu {
         position: absolute;
-    z-index: 3;
     display: inline-block;
     left: 100px;
     margin-top: -10px;
@@ -97,19 +118,12 @@
     top: 2px;
     font-size: 50px;
 	}
-    .hamburger {
-        position: relative;
-        top: auto;
-        right: auto;
-        float: none;
-        margin-top: 14px;
+   
+    .service__item {
+    width: 90%;
+    margin-bottom: 10px;
     }
-    .offer {
-        position: relative;
-        left: auto;
-        top: auto;
-        padding-top: 300px;
-    }
+
     .offer__title {
         font-size: 35px;
         width: auto;
