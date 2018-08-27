@@ -1,0 +1,143 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .offer__bg {
+        font-size: 50px;
+    }
+    .offer__title {
+        margin-left: 160px;
+        margin-top: 80px;
+    }
+    .offer__text {
+        margin-left: 150px;
+    }
+    .offer__btn {
+        margin-left: 240px;
+    }
+    .next {
+        font-size: 40px;
+        width: 220px;
+        left: 75%;
+    }
+    .brah {
+        display: none;
+    }
+    .service {
+    }
+    .service__item {
+        width: 20%;
+        margin-bottom:60px;
+    }
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    .next {
+        display: none;
+    }
+    .credits {
+        flex-direction: column;
+    }
+    .service {
+    flex-direction: column;
+    }
+        margin-bottom: 40px;
+    }
+    .service__index {
+    position: relative;
+    right: 40%;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 23px;
+    color: #a8a8e4;
+    left: 10px;
+    top: -30px;
+}
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .offer__bg {
+        font-size: 40px;
+        position: relative;
+    }
+    .header {
+        height: auto;
+        padding-top: 50px;
+    }
+    .header .container {
+        height: auto;
+        padding-bottom: 150px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .logo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .nav__showmenu {
+        position: absolute;
+    z-index: 3;
+    display: inline-block;
+    left: 100px;
+    margin-top: -10px;
+    padding: 5px 50px 100px 130px;
+    right: 0;
+    top: 2px;
+    font-size: 50px;
+	}
+    .hamburger {
+        position: relative;
+        top: auto;
+        right: auto;
+        float: none;
+        margin-top: 14px;
+    }
+    .offer {
+        position: relative;
+        left: auto;
+        top: auto;
+        padding-top: 300px;
+    }
+    .offer__title {
+        font-size: 35px;
+        width: auto;
+        margin-left: auto;
+    }
+    .offer__text {
+        margin-left: 0;
+        width: auto;
+    }
+    .offer__btn {
+        margin-left: 0;
+    }
+
+
+.service__index {
+    position: relative;
+    right: 40%;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 23px;
+    color: #a8a8e4;
+    left: 10px;
+    top: -30px;
+}
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .section-title__title {
+        font-size: 60px;
+    }
+}
