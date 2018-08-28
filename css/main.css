@@ -31,8 +31,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Jaapokkisubtract', sans-serif;
     letter-spacing: 0.14em;
-    font-weight: normal;
     line-height: 1.3em;
+    margin-left: -30px;
 }
 
 h2 {
@@ -76,7 +76,7 @@ p {
     background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom / cover;
     color: #fff;
     height: 100vh;
-    box-shadow: 0 80px 190px rgba(33, 48, 800, 0.4);
+    box-shadow: 0 100px 100px color: #38197e;
 }
 
 .header .container {
@@ -285,12 +285,13 @@ label {cursor: pointer;}
 }
 
 .section-title__intro {
-	font-family: 'Jaapokkisubtract', sans-serif;
+	font-family: 'Arial', sans-serif;
 	color: #38197e;
     font-size: 23px;
     margin: 0;
     margin-top: -30px;
     font-weight: bold;
+    text-align: center;
 }
 
 .section-title__title {
@@ -375,6 +376,7 @@ label {cursor: pointer;}
 .footer {
     background: #ededf8;
     padding: 160px 0;
+    line-height: 4.15;
 }
 
 .credits {
