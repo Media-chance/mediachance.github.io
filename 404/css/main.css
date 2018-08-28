@@ -1,0 +1,326 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Specification */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #3c90a3;
+    letter-spacing: 0.06em;
+  }
+
+.container {
+	margin: 0 7%;
+	position: relative;
+}
+
+.jpk-font {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'arial', sans-serif;
+    letter-spacing: 0.14em;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+h2 {
+	letter-spacing: 0.04em;
+}
+
+div, p, span, a, input, button {
+    box-sizing: border-box;
+}
+
+p {
+	line-height: 1.7em;
+	margin: 0;
+}
+
+.btn {
+	font-family: 'Jaapokkisubtract', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	background: transparent;
+	border: 3px solid #fff;
+	cursor: pointer;
+	padding: 17px 0;
+	width: 217px;
+	transition: all 0.3px ease;
+} 
+
+.btn:hover {
+	background: #38197e;
+	color: #0001c5;
+}
+
+.black p{
+	color: #0d0c10;
+}
+  /* Hero section */
+
+
+
+.header {
+    background: #0406bd url(../img/first_bg3.jpg) no-repeat center bottom / cover;
+    color: #fff;
+    height: 100vh;
+    box-shadow: 0 80px 190px rgba(124, 175, 200, 1);
+}
+
+
+.header .container {
+    height: 100vh;
+}
+
+.logo {
+    width: 55px;
+    height: 48px;
+    background: #fff;
+    color: #99dae8;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    position: absolute;
+    top: 7%;
+    letter-spacing: -0.2em;
+}
+
+.logo:hover	{
+	border-radius: 8px; 
+}
+
+.brah {
+    background: #fff;
+    color: #0304b9;
+    height: 350px;
+    width: 10px;
+    padding: 10px 15px;
+    position: absolute;
+    left: 55%;
+    top: 0;
+}
+
+
+
+.offer {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -250px;
+}
+
+.offer__bg {
+    font-size: 130px;
+    top: 30%;
+    color: #3c90a3;
+    position: absolute;
+    left: 30%;
+}
+
+.offer__title {
+	font-size: 50px;
+    position: relative;
+    width: 730px;
+    margin-top: 150px;
+    margin-left: 134px;
+    top: 60px;
+}
+
+.offer__title:after {
+    content: '';
+    display: block;
+    background: #fff;
+    width: 29px;
+    height: 5px;
+    position: absolute;
+    right: 300px;
+    top: -10px;
+}
+
+.offer__text {
+	font-size: 17px;
+    width: 537px;
+    margin-top: 40px;
+    margin-left: 116px;
+}
+
+.offer__btn {
+	margin-left: 350px;
+	margin-top: 45px;
+}
+
+.next {
+	font-size: 100px;
+    width: 433px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+    text-shadow: 15px 15px 0 #0309a1;
+}
+
+input {display: none;}
+label {cursor: pointer;}
+
+.nav {user-select: none;}
+
+.nav__showmenu {
+    position: absolute;
+    display: inline-block;
+    left: 80%;
+    margin-top: 20px;
+    padding: 5px 10px 10px;
+    top: 2px;
+    font-size: 50px;
+}
+
+
+
+.menu, .menu__submenu{
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+  }
+
+.menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 220px;
+    margin: 0;
+    padding: 17px 0;
+    text-transform: uppercase;
+    line-height: 2em;
+    background-color: #99dae8;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translateX(-100%);
+    transition: transform .3s;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.menu__submenu {
+    font-size: .8em;
+    background-color: #ddd;
+    max-height: 0;
+    transition: max-height .3s ease-in-out;
+}
+
+.menu__showsub {
+    position: absolute;
+    right: 0;
+    margin-top: -34px;
+    padding: 10px;
+    line-height: normal;
+}
+
+.menu__item {  
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__submenu .menu__item {color: #000;}
+
+.nav__check:checked~.nav__back {
+    background-color: rgba(0,0,0,.2);
+    bottom: 0;
+}
+
+.menu__item:hover,.nav__showmenu:hover,.menu__showsub:hover {opacity: 0.7;}
+.menu::-webkit-scrollbar {display: none;}
+.nav__check:checked+.nav__showmenu {color:#fff;}
+.menu__check:checked~.menu__submenu {max-height: 100vh;}
+.menu__check:checked+.menu__showsub {transform: rotate(180deg);}
+.nav__check:checked~.menu {transform: translateX(0);}
+.next span {
+    margin-right: -45px;
+    line-height: 0.7em;
+    letter-spacing: 0.09em;
+}
+
+.next span:nth-child(2) {
+    color: #0048ff;
+}
+
+.scroll {
+	display: block;
+	font-size: 22px;
+	border-right: 3px solid #fff;
+	height: 135px;
+	padding-right: 50px;
+	padding-top: 20px;
+	color: #fff;
+	width: 120px;
+	text-decoration: none;
+	position: absolute;
+	right: 10%;
+	bottom: 0;
+	transition: all 0.3s ease;
+}
+
+.scroll:hover {
+	background: #fff;
+	color: #0000a0;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background: #ededf8;
+    padding: 160px 0;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits__logo {
+    background: #99dae8;
+    color: #fff;
+    position: relative;
+    top: auto;
+}
+
+.credits__btn {
+    color: #99dae8;
+    border: 3px solid #99dae8;
+    font-size: 17px;
+    padding: 13px 0;
+    width: 172px;
+}
+
+.credits__up {
+    text-decoration: none;
+}
+
+
+
+
+
